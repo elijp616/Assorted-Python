@@ -1,0 +1,17 @@
+{('Taylor Swift',): True}
+.......F.....
+======================================================================
+FAIL: test_pair_rivals_2 (__main__.TestMyClass)
+Failed pair_rivals with {"Kanye West": "Taylor Swift", "Messi": "Ronaldo"} and {"Taylor Swift": "Ex-Boyfriends"}
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\elija\Desktop\Hw6\HW06_student_test.py", line 97, in test_pair_rivals_2
+    msg=error_messages[9])
+AssertionError: {} != {('Taylor Swift',): True}
+- {}
++ {('Taylor Swift',): True} : Failed pair_rivals with {"Kanye West": "Taylor Swift", "Messi": "Ronaldo"} and {"Taylor Swift": "Ex-Boyfriends"}
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.006s
+
+FAILED (failures=1)

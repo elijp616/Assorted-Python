@@ -1,0 +1,55 @@
+# day 28 - more recursion
+
+def f(num):
+    if num == 0:
+        return 0
+    return f(num - 1) + num
+
+print(f(4))
+
+
+def pnums(num):
+    if num < 0:
+        print(num)
+    else:
+        print(num)
+        pnums(num  - 2)
+        print(num)
+
+pnums(5)
+
+
+# print out a string one letter at a time using recursion only (no loops)_
+def pstring(astr):
+
+    if len(astr)==1:
+        print(astr[0])
+
+    else:
+        print(astr[0])  # print one letter
+        pstring(astr[1:]) pt. a # call the function to do all the other letters
+        print(astr)
+
+
+
+def printstuff(num1,num2):
+    if num1 == num2:
+        print("*")
+    else:
+        print("**")
+        printstuff(num1+1,num2)
+
+printstuff(3,6)
+
+
+
+
+
+
+
+
+
+
+
+pstring("cat")
+

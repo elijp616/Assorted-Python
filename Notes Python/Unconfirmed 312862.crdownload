@@ -1,0 +1,32 @@
+# day 29 notes - last day of recursion
+
+
+def fibo(n):
+    if n <= 1:
+        return 1
+    else:
+        return fibo(n-1) + fibo(n-2)
+
+print(fibo(8))    
+
+
+def f(n):
+    if n==0:
+        return 0
+    elif n%2 == 1:
+        return f(n-1) + 1
+    else:
+        return f(n-2) + 2
+
+print(f(7))
+print(f(20))
+
+
+def getOut(alist):
+    if type(alist) != list:
+        return alist
+    else:
+        return getOut(alist[0])
+
+print(getOut([[[6]]]))    
+

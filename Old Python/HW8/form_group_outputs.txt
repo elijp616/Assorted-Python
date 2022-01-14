@@ -1,0 +1,36 @@
+Below are the function calls in respect to what your 'group.txt' should have written in it
+
+>>> 
+form_groups("studentsTest.txt", "Momo Yaoyorozu", 0)
+
+
+
+>>> 
+form_groups("studentsTest.txt", "Momo Yaoyorozu", 1)
+
+Team Momo Yaoyorozu
+
+>>> 
+form_groups("studentsTest.txt", "Momo Yaoyorozu", 3)
+
+Team Momo Yaoyorozu
+1) Katsuki Bakugo
+2) Tenya Iida
+
+>>> 
+form_groups("studentsTest.txt", "Momo Yaoyorozu", 15)
+
+Team Momo Yaoyorozu
+1) Katsuki Bakugo
+2) Tenya Iida
+3) Izuku Midoriya
+4) Shoto Todoroki
+5) Yuga Aoyama
+
+>>> 
+form_groups("studentsTest.txt", "Shawn Mendes", 4)
+
+Team Shawn Mendes
+1) Momo Yaoyorozu
+2) Katsuki Bakugo
+3) Tenya Iida
